@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Médico - MVP</title>
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <div>
+      <p class="etiqueta">MVP · DEMOSTRACIÓN LOCAL</p>
+      <h1>Sistema de Gestión Médica</h1>
+      <p class="subtitulo">Mantenimiento básico de médicos y clientes/pacientes</p>
+    </div>
+    <span class="estado"><span class="punto"></span> API local</span>
+  </header>
+
+  <main class="contenedor">
+    <nav class="pestanas" aria-label="Módulos">
+      <button class="pestana activa" data-modulo="medicos" type="button">Médicos</button>
+      <button class="pestana" data-modulo="clientes" type="button">Clientes / Pacientes</button>
+    </nav>
+
+    <section class="panel">
+      <div class="titulo-panel">
+        <div>
+          <h2 id="titulo-modulo">Mantenimiento de médicos</h2>
+          <p id="descripcion-modulo">Registra y administra los datos básicos de los médicos.</p>
+        </div>
+        <span id="contador" class="contador">0 registros</span>
+      </div>
+
+      <div id="mensaje" class="mensaje" role="status" aria-live="polite" hidden></div>
+
+      <form id="formulario" class="formulario">
+        <input type="hidden" id="registro-id">
+        <div class="campo">
+          <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+          <input id="nombre" name="nombre" maxlength="100" required placeholder="Ej. Ana López">
+        </div>
+        <div class="campo" id="campo-especialidad">
+          <label for="especialidad">Especialidad <span aria-hidden="true">*</span></label>
+          <input id="especialidad" name="especialidad" maxlength="80" placeholder="Ej. Medicina general">
+        </div>
+        <div class="campo" id="campo-telefono">
+          <label for="telefono">Teléfono</label>
+          <input id="telefono" name="telefono" maxlength="25" placeholder="Ej. 7000-0000">
+        </div>
+        <div class="campo" id="campo-correo" hidden>
+          <label for="correo">Correo electrónico</label>
+          <input id="correo" name="correo" type="email" maxlength="150" placeholder="Ej. paciente@correo.com">
+        </div>
+        <div class="acciones-formulario">
+          <button id="guardar" class="boton primario" type="submit">Guardar registro</button>
+          <button id="cancelar" class="boton secundario" type="button" hidden>Cancelar edición</button>
+          <button id="limpiar" class="boton texto" type="button">Limpiar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <div class="titulo-panel">
+        <div>
+          <h2>Registros</h2>
+          <p>Los datos permanecen en memoria mientras el servidor esté activo.</p>
+        </div>
+        <button id="recargar" class="boton secundario" type="button">Actualizar lista</button>
+      </div>
+      <div class="tabla-contenedor">
+        <table>
+          <thead id="encabezado-tabla"></thead>
+          <tbody id="cuerpo-tabla"></tbody>
+        </table>
+      </div>
+      <p id="sin-registros" class="sin-registros">Todavía no hay registros. Utiliza el formulario para agregar uno.</p>
+    </section>
+
+    <footer>
+      Proyecto académico Kodigo · Datos ficticios únicamente · No usar para información médica real.
+    </footer>
+  </main>
+</body>
+</html>

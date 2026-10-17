@@ -1,0 +1,13 @@
+{
+  "name": "sistema-medicos-mvp",
+  "version": "1.0.0",
+  "description": "MVP local de mantenimiento CRUD de médicos y clientes/pacientes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
