@@ -79,22 +79,21 @@ a. Ejecuta sin errores críticos.  Se  verifico que la aplicación no  presenta 
 Nombre del proyecto: Sistema Médico MVP.
 Objetivo: Desarrollar una aplicación web MVP para administrar la información de médicos y pacientes, utilizando inteligencia artificial como herramienta de  apoyo para la creación del proyecto.
 Tecnologías utilizadas:
-• HTML para la estructura de las páginas.
-• CSS para el diseño visual.
-• JavaScript para las interacciones del frontend.
-• Node.js para ejecutar el backend.
-• Express.js para crear el servidor y las rutas de la A
-b. Cumple con el objetivo definido (ej. juego interactivo, app simple).
-La aplicación cumple  con el objetivo de vibecoding pero también se  incluyo el criterio  de la persona para generar la aplicación de una manera estructurada y ante todo  funcional.
+- HTML para la estructura de las páginas.
+- CSS para el diseño visual.
+- JavaScript para las interacciones del frontend.
+- Node.js para ejecutar el backend.
+- Express.js para crear el servidor y las rutas de la A
+- Cumple con el objetivo definido (ej. juego interactivo, app simple).
+- La aplicación cumple  con el objetivo de vibecoding pero también se  incluyo el criterio  de la persona para generar la aplicación de una manera estructurada y ante todo  funcional.
 
 ## 2. Evidencia de vibecoding (prompts)
-Prompt 1: Creación del sistema
+- Prompt 1: Creación del sistema
 Actúa como un desarrollador senior de JavaScript. Desarrolla un MVP de un Sistema Médico con dos módulos: médicos y pacientes. Utiliza Node.js, Express, HTML, CSS y JavaScript. Implementa operaciones CRUD para registrar, consultar, editar y eliminar información. Utiliza almacenamiento temporal en memoria, sin base de datos, para mantener el ejemplo sencillo. Organiza el código en archivos separados, explica cómo instalar las dependencias y cómo ejecutar la aplicación localmente.
 Explicacion Prompt 1:   solicité una aplicación funcional con dos módulos CRUD y tecnologías sencillas, para obtener una primera versión que pudiera ejecutar y comprenderse.
-Prompts 2: Mejora mi Sistema Médico MVP para que, al pulsar Eliminar un médico o paciente, aparezca una confirmación antes de borrar el registro. Si el usuario cancela, el registro debe conservarse. Si confirma, debe eliminarse y actualizarse la tabla. Modifica únicamente los archivos necesarios y explícame los cambios realizados.
+- Prompts 2: Mejora mi Sistema Médico MVP para que, al pulsar Eliminar un médico o paciente, aparezca una confirmación antes de borrar el registro. Si el usuario cancela, el registro debe conservarse. Si confirma, debe eliminarse y actualizarse la tabla. Modifica únicamente los archivos necesarios y explícame los cambios realizados.
 Explicacion Prompt 2:  Le solicite a la IA  una mejora concreta sobre la aplicación existente, sin cambiar su objetivo ni reconstruir todo el proyecto.
-
-Prompt 3: 
+-Prompt 3: 
 Revisa los cambios realizados en mi Sistema Médico MVP. Prepara una lista de pruebas manuales para verificar el registro, consulta, edición y eliminación de médicos y pacientes, incluyendo la confirmación y cancelación de la eliminación. Identifica posibles limitaciones y no afirmes que una prueba fue exitosa sin haberla ejecutado realmente.
 Explicacion Prompt 3:  utilicé la IA para identificar escenarios de prueba y organizar la validación, pero los resultados finales debían comprobarse ejecutando el sistema.
 
@@ -107,25 +106,25 @@ La mejora se documentará mediante el prompt utilizado, los cambios realizados e
 
 ## 4. Validación del resultado
 La aplicación se probó localmente mediante Node.js, Express y un navegador web, procedimiento de prueba:
-  4-1. Se descomprimio el proyecto
-  4-2. Se ejecutó npm install para instalar las dependencias definidas en el proyecto.
-  4-3. Se inició el servidor con npm start.
-  4-4. Se abrió la aplicación en http://localhost:3000.
-  4-5. Se probaron las operaciones de registro y edición.
-  4-6. Se detuvo el servidor con Ctrl+C y se volvió a iniciar.
-  4-7. Se actualizó el navegador para observar el comportamiento de los datos.
+4-1. Se descomprimio el proyecto
+4-2. Se ejecutó npm install para instalar las dependencias definidas en el proyecto.
+4-3. Se inició el servidor con npm start.
+4-4. Se abrió la aplicación en http://localhost:3000.
+4-5. Se probaron las operaciones de registro y edición.
+4-6. Se detuvo el servidor con Ctrl+C y se volvió a iniciar.
+4-7. Se actualizó el navegador para observar el comportamiento de los datos.
    
 Resultado observado: las operaciones probadas funcionaron según lo esperado. Después de reiniciar el servidor, los registros guardados anteriormente desaparecieron.
 Limitación identificada: el proyecto utiliza arreglos en memoria y no dispone de una base de datos persistente. Por ello, la información se pierde al reiniciar el proceso del servidor.
 Pruebas adicionales: se registrarán los resultados de las pruebas de consulta, eliminación y de la mejora solicitada, una vez ejecutadas
 
 ## 5. Reflexión final
-5a) Qué aprendió usando IA para programar.
+- 5a) Qué aprendió usando IA para programar.
   Aprendi que la  IA es una  excelente herramienta  para poder  mejorar  nuestros  tiempos de respuesta como  programador , también nos  permite aprender  bloques de código a medida que la  IA  nos  genera  código pero que no se nos olvide que el código que la   IA  nos genere se debe de revisar y realizar pruebas  para  garantizar que no hay errores.
-5b) Qué ventajas y límites identificó del vibecoding.
+- 5b) Qué ventajas y límites identificó del vibecoding.
 Ventajas:  Nos permite generar  bloques de código  de manera eficiente, nos   permite crear casos de uso de la aplicación , generar  documentación de nuestra aplicación.
 Limites: Los limites los establece  el ser  humano cuando elabora los prompts y le  solicitamos a la IA que realice  una tarea.
-5c) Qué partes del código comprende y cuáles necesita reforzar.
+- 5c) Qué partes del código comprende y cuáles necesita reforzar.
 En mi caso desconocía  como funcionba JavaScript del lado del Backend por lo  cual debo de  reforzarlos
 
 
