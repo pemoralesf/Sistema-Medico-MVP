@@ -119,12 +119,12 @@ Limitación identificada: el proyecto utiliza arreglos en memoria y no dispone d
 Pruebas adicionales: se registrarán los resultados de las pruebas de consulta, eliminación y de la mejora solicitada, una vez ejecutadas
 
 ## 5. Reflexión final
-- a Qué aprendió usando IA para programar.
+- A) Qué aprendió usando IA para programar.
   Aprendi que la  IA es una  excelente herramienta  para poder  mejorar  nuestros  tiempos de respuesta como  programador , también nos  permite aprender  bloques de código a medida que la  IA  nos  genera  código pero que no se nos olvide que el código que la   IA  nos genere se debe de revisar y realizar pruebas  para  garantizar que no hay errores.
-- b Qué ventajas y límites identificó del vibecoding.
+- B) Qué ventajas y límites identificó del vibecoding.
 Ventajas:  Nos permite generar  bloques de código  de manera eficiente, nos   permite crear casos de uso de la aplicación , generar  documentación de nuestra aplicación.
 Limites: Los limites los establece  el ser  humano cuando elabora los prompts y le  solicitamos a la IA que realice  una tarea.
-- c Qué partes del código comprende y cuáles necesita reforzar.
+- C) Qué partes del código comprende y cuáles necesita reforzar.
 En mi caso desconocía  como funcionba JavaScript del lado del Backend por lo  cual debo de  reforzarlos
 
 
