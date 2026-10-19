@@ -68,8 +68,9 @@ Los registros se guardan temporalmente en la memoria del proceso Node.js. Se pie
 Documenta los prompts reales utilizados, qué respuesta produjo la IA, qué ajuste pediste y qué resultado comprobaste. No declares pruebas exitosas hasta ejecutarlas.
 
 *****************************************************************************************
-# Actividad Individual
-Vibecoding Guiado: Desarrollo de una Aplicación o Mini-Juego con IA como Copiloto
+# ACTIVIDAD INDIVIDUAL
+
+# Vibecoding Guiado: Desarrollo de una Aplicación o Mini-Juego con IA como Copiloto
 
 TAREA SEMANA 2: 
 
